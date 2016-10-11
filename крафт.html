@@ -1,0 +1,28 @@
+<!DOCTYPE=html>
+<html>
+<head>
+<meta charset=utf-8"> 
+<title>Крафтинг</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h4 id="h31">полка предметов</h4>
+<div id="list">
+	<h5 id="h5">Рецепты</h5>
+	<div id="recipe"></div>
+</div>
+<div id="bookshelf">
+	<div id="bookshelf1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+	<div id="bookshelf2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+		<div> Добавить часть 
+			<input type="text" id="addItem">
+		<button id="addButton">Add</button>
+					<span id="outputMessageItem"></span>
+		</div>
+<div id="boiler" ondrop="drop(event)" ondragover="allowDrop(event)"> </div>
+<button>craft</button>
+</div>
+<script src="drag.js"></script>
+<script src="addPart.js"></script>
+<script src="craft.js"></script>
+</html>
